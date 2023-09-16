@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Outfit";
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100vw;
+    min-width: 260px;
+    max-width: 250px;
+    height: 450px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    margin: 15px;
+}
+
+.img-up {
+    width: 100%;
+
+    align-self: center;
+    border-radius: .5rem;
+
+   
+}
+
+.image-before {
+    align-self: center;
+    width: 90%;
+    height: 52%;
+    position: relative; 
+}
+
+.eye {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: hsl(178, 100%, 50%,50%);
+    border-radius: .5rem;
+    opacity: 0;
+}
+
+.eye:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+ 
+
+.svg-eye {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h5 {
+    display: flex;
+    align-items: center;
+}
+
+.svg-p {
+    padding-right: 2px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+
+hr {
+    width: 90%;
+    align-self: center;
+    height: .5px;
+    background-color: white;
+
+    border: 0px;
+}
+
+.row-down {
+    display: flex;
+    flex-direction: row;
+    font-size: 13.28px;
+    align-items: center;
+}
+
+.hover {
+    color: white;
+}
+
+.hover:hover {
+    color: cyan;
+    cursor: pointer;
+}
